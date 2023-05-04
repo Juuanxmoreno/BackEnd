@@ -13,7 +13,7 @@ import lombok.Setter;
 public class Persona {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private int id;
     
     @NotNull
     private String nombre;
@@ -21,6 +21,20 @@ public class Persona {
     @NotNull
     private String apellido;
     
+    @NotNull
+    private String acercaDe;
     
     private String img;       
+
+    public Persona() {
+    }
+
+    public Persona(String nombre, String apellido, String acercaDe, String img) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.acercaDe = acercaDe;
+        this.img = img;
+    }
+    
+    
 }
