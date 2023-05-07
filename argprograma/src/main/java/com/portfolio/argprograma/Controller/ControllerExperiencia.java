@@ -39,7 +39,7 @@ public class ControllerExperiencia {
     
     @GetMapping("/detail/{id}")
     public ResponseEntity<Experiencia> getById(@PathVariable("id") int id){
-        if(!serviceExperiencia.existById(id))
+        if(!serviceExperiencia.existsById(id))
             return new ResponseEntity(new Mensaje("no existe"), HttpStatus.NOT_FOUND);
         Experiencia experiencia = serviceExperiencia.getOne(id).get();
         return new ResponseEntity(experiencia, HttpStatus.OK);
@@ -50,7 +50,7 @@ public class ControllerExperiencia {
         if (StringUtils.isBlank(dtoExperiencia.getNombreExperiencia())) {
             return new ResponseEntity(new Mensaje("Este campo es obligatorio"), HttpStatus.BAD_REQUEST);
         }
-        if (serviceExperiencia.ExistByNombreExperiencia(dtoExperiencia.getNombreExperiencia())) {
+        if (serviceExperiencia.ExistsByNombreExperiencia(dtoExperiencia.getNombreExperiencia())) {
             return new ResponseEntity(new Mensaje("Esa experiencia ya existe"), HttpStatus.BAD_REQUEST);
         }
 
@@ -62,10 +62,10 @@ public class ControllerExperiencia {
 
     @PutMapping("/update/{id}")
     public ResponseEntity<?> update(@PathVariable("id") int id, @RequestBody DtoExperiencia dtoExperiencia) {
-        if (!serviceExperiencia.existById(id))
+        if (!serviceExperiencia.existsById(id))
             return new ResponseEntity(new Mensaje("Este ID no existe"), HttpStatus.BAD_REQUEST);
 
-        if (serviceExperiencia.ExistByNombreExperiencia(dtoExperiencia.getNombreExperiencia()) && serviceExperiencia.getByNombreExperiencia(dtoExperiencia.getNombreExperiencia()).get().getId() != id) {
+        if (serviceExperiencia.ExistsByNombreExperiencia(dtoExperiencia.getNombreExperiencia()) && serviceExperiencia.getByNombreExperiencia(dtoExperiencia.getNombreExperiencia()).get().getId() != id) {
             return new ResponseEntity(new Mensaje("Esa Experiencia ya existe"), HttpStatus.BAD_REQUEST);
         }
 
@@ -83,7 +83,7 @@ public class ControllerExperiencia {
     
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> delete(@PathVariable("id") int id) {
-        if (!serviceExperiencia.existById(id))
+        if (!serviceExperiencia.existsById(id))
             return new ResponseEntity(new Mensaje("Este ID no existe"), HttpStatus.BAD_REQUEST);
         
         serviceExperiencia.delete(id);

@@ -38,11 +38,11 @@ public class ServiceExperiencia {
         repositoryExperiencia.deleteById(id);
     }
     
-    public boolean existById(int id){
+    public boolean existsById(int id){
         return repositoryExperiencia.existsById(id);
     }
     
-    public boolean ExistByNombreExperiencia(String nombreExperiencia){
+    public boolean ExistsByNombreExperiencia(String nombreExperiencia){
         return repositoryExperiencia.existsByNombreExperiencia(nombreExperiencia);
     }
 }
