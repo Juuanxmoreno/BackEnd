@@ -3,6 +3,7 @@ C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Controller\PersonaController.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Service\ServiceSkills.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Service\ServiceEducacion.java
+C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Repository\RepositoryProyectos.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Security\Entity\Usuario.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Dto\DtoEducacion.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Dto\DtoPersona.java
@@ -17,6 +18,7 @@ C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Repository\RepositoryExperiencia.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Security\Service\UserDetailsServiceImpl.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Security\Dto\JwtDto.java
+C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Service\ServiceProyectos.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Controller\ControllerSkills.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Security\Controller\Mensaje.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Security\Entity\Rol.java
@@ -24,8 +26,10 @@ C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Security\Dto\LoginUsuario.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Security\MainSecurity.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\ArgprogramaApplication.java
+C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Controller\ControllerProyectos.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Entity\Persona.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Dto\DtoExperiencia.java
+C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Dto\DtoProyectos.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Security\jwt\JwtTokenFilter.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Security\Service\UsuarioService.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Interface\IPersonaService.java
@@ -33,6 +37,7 @@ C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Repository\IPersonaRepository.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Repository\RepositorySkills.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Controller\ControllerExperiencia.java
+C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Entity\Proyectos.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Security\Service\RolService.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Entity\Educacion.java
 C:\Users\ricar\OneDrive\Escritorio\Argentina Programa\Proyecto_Final\BackEnd\src\main\java\com\portfolio\argprograma\Security\Dto\NuevoUsuario.java

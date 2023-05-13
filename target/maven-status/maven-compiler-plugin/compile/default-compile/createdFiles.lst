@@ -1,3 +1,4 @@
+com\portfolio\argprograma\Entity\Proyectos.class
 com\portfolio\argprograma\Repository\IPersonaRepository.class
 com\portfolio\argprograma\Security\Dto\LoginUsuario.class
 com\portfolio\argprograma\Security\Service\UserDetailsServiceImpl.class
@@ -27,14 +28,18 @@ com\portfolio\argprograma\Security\jwt\JwtTokenFilter.class
 com\portfolio\argprograma\Controller\ControllerEducacion.class
 com\portfolio\argprograma\Security\Controller\Mensaje.class
 com\portfolio\argprograma\Dto\DtoExperiencia.class
+com\portfolio\argprograma\Controller\ControllerProyectos.class
 com\portfolio\argprograma\Repository\RepositoryExperiencia.class
 com\portfolio\argprograma\Controller\ControllerSkills.class
 com\portfolio\argprograma\Service\ServiceSkills.class
 com\portfolio\argprograma\Controller\PersonaController.class
 com\portfolio\argprograma\Controller\ControllerExperiencia.class
+com\portfolio\argprograma\Dto\DtoProyectos.class
 com\portfolio\argprograma\Entity\Educacion.class
 com\portfolio\argprograma\Security\Repository\IUsuarioRepository.class
 com\portfolio\argprograma\Repository\RepositoryEducacion.class
 com\portfolio\argprograma\Service\ServiceEducacion.class
+com\portfolio\argprograma\Service\ServiceProyectos.class
+com\portfolio\argprograma\Repository\RepositoryProyectos.class
 com\portfolio\argprograma\Security\Service\UsuarioService.class
 com\portfolio\argprograma\Entity\Skills.class
